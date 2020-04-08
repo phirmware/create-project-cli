@@ -12,7 +12,7 @@ function setUp(options) {
             resolve('DONE');
             console.log('%s  Setup Complete', chalk.green.bold('SUCCESS'));
         });
-    })
+    });
 }
 
 

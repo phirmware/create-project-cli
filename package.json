@@ -2,10 +2,10 @@
   "name": "@phirmware/create-project",
   "version": "1.0.1",
   "description": "A CLI that sets up your project in any framework of your choice",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "bin": {
-    "@phirmware/create-project": "bin/create-project",
-    "create-project": "bin/create-project"
+    "phirmware": "./bin/create-project",
+    "create-project": "./bin/create-project"
   },
   "engines": {
     "node": "10.19.x"
