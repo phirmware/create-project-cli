@@ -1,6 +1,6 @@
 {
   "name": "@phirmware/create-project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI that sets up your project in any framework of your choice",
   "main": "src/cli.js",
   "bin": {
