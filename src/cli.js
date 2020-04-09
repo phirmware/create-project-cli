@@ -5,13 +5,9 @@ import { createProject } from "./main";
 function parseArgumentsIntoOptions(rawArgs) {
     const args = arg(
         {
-            '--git': Boolean,
             '--yes': Boolean,
-            '--install': Boolean,
             '--name': String,
-            '-g': '--git',
             '-y': '--yes',
-            '-i': '--install'
         },
         {
             argv: rawArgs.slice(2),
@@ -19,9 +15,7 @@ function parseArgumentsIntoOptions(rawArgs) {
     );
     return {
         skipPrompts: args['--yes'] || false,
-        git: args['--git'] || false,
         template: args._[0],
-        runInstall: args['--install'] || false,
         projectName: args['--name'] || false,
     };
 }
