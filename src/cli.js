@@ -41,27 +41,17 @@ async function promptForMissingOptions(options) {
             type: 'list',
             name: 'template',
             message: 'Please choose which framework to setup',
-            choices: ['Angular', 'React'],
+            choices: ['Angular',
+                'React',
+                'Vue',
+                'Node(Express)',
+                'Express&Jade',
+                'Express&PUG',
+                'Express&HBS',
+                'Express&EJS'
+            ],
             default: defaultTemplate,
         })
-    }
-
-    if (!options.git) {
-        questions.push({
-            type: 'confirm',
-            name: 'git',
-            message: 'Initialize a git repository?',
-            default: false,
-        });
-    }
-
-    if (!options.runInstall) {
-        questions.push({
-            type: 'confirm',
-            name: 'runInstall',
-            message: 'Install dependencies?',
-            default: false,
-        });
     }
 
     if (!options.projectName) {
@@ -77,8 +67,6 @@ async function promptForMissingOptions(options) {
     return {
         ...options,
         template: options.template || answers.template,
-        runInstall: options.runInstall || answers.runInstall,
-        git: options.git || answers.git,
         projectName: options.projectName || answers.projectName,
     }
 }
