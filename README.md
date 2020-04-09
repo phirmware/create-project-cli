@@ -1,47 +1,52 @@
 # @phirmware/create-project
 
-<!-- [![travis build](https://travis-ci.com/phirmware/covid-facts.svg)](https://travis-ci.com/phirmware/covid-facts)
-[![codecov coverage](https://img.shields.io/codecov/c/github/phirmware/covid-facts)](https://codecov.io/github/phirmware/covid-facts)
-[![version](https://img.shields.io/npm/v/covid-facts.svg?style=flat-square)](http://npm.im/covid-facts)
-[![downloads](https://img.shields.io/npm/dm/covid-facts.svg?style=flat-square)](https://npm-stat.com/charts.html?package=covid-facts&from=2019-03-26)
-[![MIT License](https://img.shields.io/npm/l/starwars-names.svg?style=flat-square)](http://opensource.org/licenses/MIT) -->
+This is a simple intractive CLI tool for setting up a project with a framework of your choice
+
+[![travis build](https://travis-ci.com/phirmware/covid-facts.svg)](https://travis-ci.com/phirmware/create-project-cli)
+<!-- [![codecov coverage](https://img.shields.io/codecov/c/github/phirmware/covid-facts)](https://codecov.io/github/phirmware/covid-facts) -->
+[![version](https://img.shields.io/npm/v/covid-facts.svg?style=flat-square)](http://npm.im/@phirmware/create-project)
+[![downloads](https://img.shields.io/npm/dm/covid-facts.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@phirmware/create-project&from=2019-03-26)
+[![MIT License](https://img.shields.io/npm/l/starwars-names.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 
 Setup a new project with a framework of your choice.
 
 <!-- <a href="https://app.codesponsor.io/link/PKGFLnhDiFvsUA5P4kAXfiPs/kentcdodds/starwars-names" rel="nofollow"><img src="https://app.codesponsor.io/embed/PKGFLnhDiFvsUA5P4kAXfiPs/kentcdodds/starwars-names.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a> -->
 
-## Installation
+<!-- ## Installation
 
 This package is distributed via npm:
 
-```
+```java
 npm install -g @phirmware/create-project
-```
+``` -->
 
 ## Usage
 
 Using npx run 
 
-```javascript
+```shell
 npx @phirmware/create-project
 ```
 
-If you globally installed the project run
+<!-- If you globally installed the project run
 
 ```javascript
 create-project
-```
+``` -->
 Featured Frameworks include
 
 ```java
 Angular
 React
 Vue
+Gatsby
 Nodejs (Express)
 Nodejs with (ejs, hbs, pug, jade)
 ```
 
+## CLI (Screenshot)
+<img src="https://github.com/nerdeveloper/stacks/blob/master/images/create-project.png" alt="phirmware" title="Screenshot of @phirmware/create-project" width="500" >
 
 ## Other
 
@@ -54,10 +59,7 @@ You can view my portfolio @ [portfolio](https://portfolio.phirmware.me) and cont
 
 ### Project Setup
 
-This project assumes you have [NodeJS v10](http://nodejs.org/) or greater installed. You should
-also have [npm v3](https://www.npmjs.com/) or greater installed as well (this comes packaged
-with Node 10). You'll also need a recent version of [git](https://git-scm.com/) installed
-as well.
+This project assumes you have [NodeJS v8](http://nodejs.org/) or greater installed. 
 
 <!-- You may have come to this project from different varying sources. There are a
 different series of branches for each workshop/course I've done. To get started with
